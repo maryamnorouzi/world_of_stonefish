@@ -47,7 +47,28 @@
 		<arg name="position_z" value="0.0"/>
 	</include>
 
+	<include file="$(find world_of_stonefish)/vehicles/mauv_3.scn">
+		<arg name="robot_name" value="mauv_3"/>
+	
+		<!-- <arg name="comm_device_id"  value="1"/>
+		<arg name="comm_connect_id" value="2"/> -->
 
+		<arg name="position_x"      value="-5.0"/>
+		<arg name="position_y"      value="-2.0"/>
+		<arg name="position_z"      value="0.0"/>
+
+	</include>
+
+	<include file="$(find world_of_stonefish)/vehicles/mauv_4.scn">
+		<arg name="robot_name" value="mauv_4"/>
+
+		<!-- <arg name="comm_device_id"  value="2"/>
+		<arg name="comm_connect_id" value="1"/> -->
+
+		<arg name="position_x" value="0.0"/>
+		<arg name="position_y" value="-4.0"/>
+		<arg name="position_z" value="0.0"/>
+	</include>
 
 
     <!-- <static name="tank" type="model">
