@@ -208,3 +208,8 @@
 		<ros_publisher propellers="$(arg robot_name)/stonefish/thruster_state"/>
     </robot>
 </scenario>
+
+<!-- 
+just to check this one
+<ros_subscriber thrusters="/mauv_test_robot/stonefish/thruster_command" servos="/mauv_test_robot/fins/desired_joint_states"/>  
+-->
